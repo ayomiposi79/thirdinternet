@@ -11,7 +11,7 @@ export default function PrivyProvider({ children }: { children: React.ReactNode 
         appearance: {
           theme: "light",
           accentColor: "#676FFF",
-          logo: "https://ibb.co/7zGhvRZ",
+          logo: "https://res.cloudinary.com/dxzwbed3z/image/upload/v1720793570/c1cnd8dmyleekqmdw7rf.png",
         },
         // Create embedded wallets for users who don't have a wallet
         embeddedWallets: {
