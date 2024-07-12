@@ -331,11 +331,17 @@ export default function Home() {
         />
         <span>Bringing the next generation onchain</span>
         <div className="mx-auto flex items-center gap-[36px]">
-          <Image src="/facebook-1.svg" alt="https://warpcast.com/thirdinternet" width={40} height={40} />
-          <Image src="/twitter-1.svg" alt="https://x.com/grammyboy_?s=21" width={40} height={40} />
-          <Image src="/insta-1.svg" alt="https://www.instagram.com/thethirdinternet?igsh=cmlwM2lvNjZ2Nmtr&utm_source=qr" width={40} height={40} />
-        </div>
-        <span>
+  <a href="https://warpcast.com/thirdinternet" target="_blank" rel="noopener noreferrer">
+    <Image src="/facebook-1.svg" alt="Facebook" width={40} height={40} />
+  </a>
+  <a href="https://x.com/grammyboy_?s=21" target="_blank" rel="noopener noreferrer">
+    <Image src="/twitter-1.svg" alt="Twitter" width={40} height={40} />
+  </a>
+  <a href="https://www.instagram.com/thethirdinternet?igsh=cmlwM2lvNjZ2Nmtr&utm_source=qr" target="_blank" rel="noopener noreferrer">
+    <Image src="/insta-1.svg" alt="Instagram" width={40} height={40} />
+  </a>
+</div>
+         <span>
           All Rights Reserved © 2024 <strong>Thirdinternet</strong>
         </span>
       </motion.footer>
