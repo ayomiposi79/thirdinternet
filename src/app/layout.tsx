@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-// import PrivyProvider from "@/providers/privy"; // Commented out for debugging
+import PrivyProvider from "@/providers/privy";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
-        {/* <PrivyProvider>{children}</PrivyProvider> */} {/* Commented out for debugging */}
+        <PrivyProvider>{children}</PrivyProvider>
         {children}
       </body>
     </html>
