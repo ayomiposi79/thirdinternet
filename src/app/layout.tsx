@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={outfit.className}>
         <PrivyProvider>{children}</PrivyProvider>
-        {children}
       </body>
     </html>
   );
