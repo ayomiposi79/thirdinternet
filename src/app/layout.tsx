@@ -1,4 +1,4 @@
-Limport type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import PrivyProvider from "@/providers/privy";
